@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About: Kiara Mecham</title>
+    
+    <link rel="icon" type="image/x-icon" href="website logo.jpg">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<style>
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2, p {
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+  display: flex;
+  justify-content: left;
+  background-image: url(granite.jpg);
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 60px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+
+
+.header {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+a.dropbtn {
+  color: white;
+  padding: 60px 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-image: url(granite.jpg);
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  display: block;
+  color: white;
+  padding: 60px 16px;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+   background-color: #111111;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #111111;
+}
+
+
+
+
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 5px;
+  background-color: rgb(56, 41, 25);
+  padding: 10px;
+  color: white;
+}
+
+.container div {
+  background-color: rgb(88, 67, 101);
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.item2 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+
+
+
+
+
+
+.container2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 5px;
+  background-color:rgb(88, 67, 101);
+  padding: 10px;
+}
+
+.container2 div {
+  
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.image {
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  width: 75%;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.item21:hover .image, .item22:hover .image, .item23:hover .image, .item24:hover .image {
+  opacity: 0.3;
+}
+
+.item21:hover div.middle, .item22:hover div.middle, .item23:hover div.middle, .item24:hover div.middle {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 15px;
+  
+}
+
+.item21, .item22, .item23, .item24 {
+    position:relative;
+}
+
+a.dance:hover {
+    cursor:pointer;
+}
+
+.text:hover {
+    cursor: default;
+}
+
+
+
+img:active {
+    user-select: none;
+  -webkit-user-drag: none;
+}
+
+</style>
+<body>
+
+
+
+<ul>
+ <div class="header"> 
+<li ><img src="website logo.jpg" alt="cartoon website logo of cartoon me holding a book upright and upside down in purple and yellow" style="height:90px; width:auto;">
+</li>
+<li>Kiara Mecham</li>
+</div>
+
+  <li><a href="index.html">Home</a></li>
+  <li><a href="CV.html">CV</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="about.html">About</a></li>
+    <div class="dropdown">
+    <li class="dropbtn"><a href="mediums.html">Mediums</a></li>
+    <div class="dropdown-content">
+    <a href="animation.html">Animation</a>
+    <a href="paintings.html">Paintings</a>
+    <a href="photos.html">Photos</a>
+  </div>
+</div>
+</ul>
+
+<div style="background-color:rgb(56, 41, 25);">
+<br>
+
+
+
+<div class="container">
+<div class="item1">
+<br>
+<p style=" color: white;">Bonjour ✋! <br>My name is Kiara Mecham!</p>
+<br>
+<br>
+    <img src="Selfie with wood.JPG" alt="Me in front of some wood" style="width:100%;" >
+</div>
+
+<div class="item2">
+ <img src="Selfie with wings.jpeg" alt="Me with fake wings" style="width:75%;" >
+ <p style=" color: white;">I am a mixed-media artist <h1 style="font-size: 30pt;">🎨</h1> who loves to mess around with whatever I can get my hands on.
+In my spare time I enjoy reading ficion novels <h1 style="font-size: 30pt;">📖</h1> like "The Starless Sea" by Erin Morgenstern or "The Silo Series" by Hugh Howey. 
+ </p>
+</div>
+
+
+
+</div>
+
+<br>
+
+
+<div class="container2">
+<div class="item21" >
+<img class="image" src="Selfie with horse.jpeg" alt="Me on a fake horse" >
+<div class="middle">
+    <div class="text" style="background-color: rgb(58, 5, 94);">Student</div>
+  </div>
+</div>
+
+<div class="item22" >
+
+<img class="image" src="Selfie with dress.jpg" alt="Me in a ballroom dress" style="width:62%;"  >
+    <div class="middle">
+    <div class="text" style="background-color: rgb(58, 5, 94);"><a class="dance" href="dancing.html" style="color: white; text-decoration: none;">Ballroom <br>Dancer</a></div>
+  </div>
+</div>
+
+<div class="item23" >
+<img class="image" src="Selfie with bones.jpeg" alt="Me pointing to moose bones"  >
+    <div class="middle">
+    <div class="text" style="background-color: rgb(58, 5, 94);">Hiker</div>
+  </div>
+</div>
+
+  <div class="item24" >
+    <img  class="image" src="Selfie with orcas.jpeg" alt="Me in front of an orca painting"  >
+   <div class="middle">
+    <div class="text" style="background-color: rgb(58, 5, 94);">Artist</div>
+  </div>
+</div>  
+
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+</div>
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
